@@ -12,6 +12,7 @@ public class SolutionTest {
     public void testSum() throws Exception {
         Assert.assertEquals(Solution.sum(1, 2),3);
         Assert.assertEquals(Solution.sum(2, 2),4);
+        Assert.assertEquals(Solution.sum(2, 2),5);
     }
 
     @Test
